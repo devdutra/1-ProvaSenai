@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600;900&display=swap");
+}
+
+.top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: rgba(71, 0, 80, 1);
+}
+
+.logo {
+  width: 150px;
+}
+
+.menu ul {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+
+.top .links {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  border-radius: 13px 0px 10px 0px;
+  box-shadow: 1px 3px 5px rgba(71, 0, 80, 0.356);
+  background: rgb(103, 2, 134);
+  padding: 3px 20px;
+}
+
+.card-img-top {
+  /* width: 160px; */
+  margin-left: 05px;
+  margin-top: 10px;
+}
+
+
+.card-text {
+  font-weight: 100;
+  font-size: 14px;
+  font-variant-caps: all-petite-caps;
+}
+
+.carrinho {
+  color: white;
+  font-size: 25px;
+}
+
+body {
+  /* background-color: rgba(71, 0, 80, 1); */
+
+  background: linear-gradient(180deg,
+      rgba(71, 0, 80, 1) 0%,
+      rgba(120, 9, 121, 1) 46%,
+      rgba(4, 79, 16, 31) 100%);
+}
+
+.splash {
+  display: flex;
+  justify-content: flex-end;
+  background-position: right;
+}
+
+.container {
+  height: 1000px;
+  width: 100%;
+  margin-bottom: -500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.card-title {
+
+  color: rgba(71, 0, 80, 1);
+  font-weight: 900;
+}
+
+h3 {
+  color: rgb(31, 117, 0);
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(36, 36, 36, 0.288);
+}
+
+footer {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgb(100, 165, 1);
+
+}
